@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    background-color: #1c1c1e;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.footer-img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.champion-cell {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+}
+
+.popular-content {
+    background-image: url('../image/background.webp');
+    height: 815px;
+}
+
+.popular-content .container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .champ_1{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.container .champ_2{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 300px;
+}
+
+.container .champ_2 h5{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container .champ_2 h1{
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.searchbox{
+    transition: all 0.5s ease;
+}
